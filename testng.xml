@@ -10,9 +10,17 @@
   <test name="Test">
  
     <classes>
-      <class name="com.ecommerence.testcases.TC_001_loginTestcase"/> 
-      <!--  <class name="com.ecommerence.testcases.TC_003_LogoutTestcase"/> -->
-     <!--   <class name="com.ecommerence.testcases.TC_002_CreateLoginTestcase"/>-->
+  <!--  <class name="com.ecommerence.testcases.TC_001_loginTestcase"/> --> 
+   <!--  <class name="com.ecommerence.testcases.TC_003_LogoutTestcase"/>--> 
+     <!--  <class name="com.ecommerence.testcases.TC_002_CreateLoginTestcase"/>--> 
+    <!-- <class name="com.ecommerence.testcases.TC_004_PurchasingMobile"/> -->
+   <!--   <class name="com.ecommerence.testcases.TC_005_PurchasingTV"/>-->
+    <!--  <class name="com.ecommerence.testcases.TC_006_SearchProduct"/>-->
+   <!--  <class name="com.ecommerence.testcases.TC_007_CompareTwoProducts"/> --> 
+     <class name="com.ecommerence.testcases.TC_008_VerifyDashboard"/>
+    
+    
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

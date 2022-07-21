@@ -7,12 +7,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ecommerence.testcases.TC_003_LogoutTestcase">
+      <class name="com.ecommerence.testcases.TC_008_VerifyDashboard">
         <methods>
-          <include name="Logout"/>
+          <include name="VerifyDashboard"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.ecommerence.testcases.TC_003_LogoutTestcase -->
+      </class> <!-- com.ecommerence.testcases.TC_008_VerifyDashboard -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
