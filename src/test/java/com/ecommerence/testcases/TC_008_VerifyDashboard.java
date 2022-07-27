@@ -47,11 +47,11 @@ public class TC_008_VerifyDashboard extends BaseTest {
 		int columns= driver.findElements(By.xpath("//table[@id='my-orders-table']//thead//th")).size();
 		System.out.println("No of columns:"+columns);	
 		
-			
+			//no of rows
 		int rows=driver.findElements(By.xpath("//table[@id='my-orders-table']//tbody//tr")).size();
 			System.out.println("No of rows:"+rows);
 		}
-	
+		//cell data
 		int celldata=driver.findElements(By.xpath("//table[@id='my-orders-table']//tbody//td")).size();
 		System.out.println("Total no of celldata:"+celldata);
 	}

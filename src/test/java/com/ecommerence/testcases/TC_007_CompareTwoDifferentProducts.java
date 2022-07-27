@@ -11,7 +11,7 @@ import com.ecommerence.pom.LoginPage;
 import com.ecommerence.pom.MobilePage;
 import com.ecommerence.pom.TVPage;
 
-public class TC_007_CompareTwoProducts extends BaseTest{
+public class TC_007_CompareTwoDifferentProducts extends BaseTest{
 
 	@Test
 	public void compareproducts() throws InterruptedException {
@@ -52,12 +52,14 @@ public class TC_007_CompareTwoProducts extends BaseTest{
 		cp.comparepg();
 		Thread.sleep(2000);
 		
-		JavascriptExecutor js= (JavascriptExecutor)driver;
-		js.executeScript("Window.ScrollBy(0,1000)");
+		//JavascriptExecutor js= (JavascriptExecutor)driver;
+		//js.executeScript("Window.ScrollBy(0,1000)");
 		
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//button[@title='Close Window']")).click();
+		//driver.findElement(By.xpath("//button[@title='Close Window']")).click();
+		
+		driver.quit();
 	}
 	
 }

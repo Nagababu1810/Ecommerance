@@ -7,12 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ecommerence.testcases.TC_008_VerifyDashboard">
+      <class name="com.ecommerence.testcases.TC_005_PurchasingTV">
         <methods>
-          <include name="VerifyDashboard"/>
+          <include name="TV_buying"/>
+          <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.ecommerence.testcases.TC_008_VerifyDashboard -->
+      </class> <!-- com.ecommerence.testcases.TC_005_PurchasingTV -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

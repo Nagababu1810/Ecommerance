@@ -6,6 +6,7 @@
       <class name="com.ecommerence.testcases.TC_005_PurchasingTV">
         <methods>
           <include name="TV_buying"/>
+          <include name="teardown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.ecommerence.testcases.TC_005_PurchasingTV -->
