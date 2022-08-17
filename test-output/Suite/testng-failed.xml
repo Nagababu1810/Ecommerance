@@ -7,13 +7,55 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ecommerence.testcases.TC_005_PurchasingTV">
+      <class name="com.ecommerence.testcases.TC_008_VerifyDashboard">
         <methods>
-          <include name="TV_buying"/>
+          <include name="VerifyDashboard"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.ecommerence.testcases.TC_005_PurchasingTV -->
+      </class> <!-- com.ecommerence.testcases.TC_008_VerifyDashboard -->
+      <class name="com.ecommerence.testcases.TC_006_SearchProduct">
+        <methods>
+          <include name="product_search"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_006_SearchProduct -->
+      <class name="com.ecommerence.testcases.TC_007_CompareTwoDifferentProducts">
+        <methods>
+          <include name="compareproducts"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_007_CompareTwoDifferentProducts -->
+      <class name="com.ecommerence.testcases.TC_004_PurchasingMobile">
+        <methods>
+          <include name="mobile_buying"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_004_PurchasingMobile -->
+      <class name="com.ecommerence.testcases.TC_003_LogoutTestcase">
+        <methods>
+          <include name="Logout"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_003_LogoutTestcase -->
+      <class name="com.ecommerence.testcases.TC_001_loginTestcase">
+        <methods>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_001_loginTestcase -->
+      <class name="com.ecommerence.testcases.TC_002_CreateLoginTestcase">
+        <methods>
+          <include name="teardown"/>
+          <include name="createlogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerence.testcases.TC_002_CreateLoginTestcase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

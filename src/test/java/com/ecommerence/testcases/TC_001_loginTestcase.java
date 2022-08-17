@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import com.ecommerence.baseclass.BaseTest;
 import com.ecommerence.pom.LoginPage;
+import com.rerunautomation.RetryTestcases;
 
 public class TC_001_loginTestcase  extends BaseTest{
 
@@ -16,7 +17,7 @@ public class TC_001_loginTestcase  extends BaseTest{
 	//private static final Logger log=log.getloggr(TC_001_loginTestcase.class);
 	private static final Logger logger = Logger.getLogger(TC_001_loginTestcase.class);
 
-	@Test
+	@Test(retryAnalyzer = RetryTestcases.class)
 	public void login() {
 		
 		LoginPage loginp=new LoginPage(driver);
@@ -30,6 +31,7 @@ public class TC_001_loginTestcase  extends BaseTest{
 		loginp.Epassword();
 		logger.info("====enter password====");
 		loginp.clickbtn();
+		//waitforelement(driver,locator,10).clickbtn();
 		logger.info("====clicked login button====");
 		
 		

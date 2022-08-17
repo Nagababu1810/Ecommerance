@@ -7,6 +7,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -84,9 +85,9 @@ public class BaseTest {
 	
 	}
 	
-	/*public void waitforelement(WebElement  locator,Duration timeout) {
+	public void waitforelement(WebDriver driver, WebElement  locator,Duration timeout) {
 	
-	WebDriverWait wait = new WebDriverWait(locator, Duration.ofSeconds(30));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 	if(wait.equals("clickable")) {
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}else if(wait.equals("visible")) {
@@ -94,7 +95,8 @@ public class BaseTest {
 	}
 	
 	
-	}*/
+	
+	}
 	
 
 }
